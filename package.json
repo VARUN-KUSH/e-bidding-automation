@@ -1,6 +1,6 @@
 {
   "name": "bidding",
-  "displayName": "Bidding",
+  "displayName": "E-Bidding",
   "version": "0.0.1",
   "description": "A basic Plasmo extension.",
   "author": "varun",
@@ -25,7 +25,12 @@
   },
   "manifest": {
     "host_permissions": [
-      "https://*/*"
+      "https://*/*",
+      "<all_urls>"
+    ],
+    "permissions": [
+      "activeTab",
+      "scripting"
     ]
   }
 }
